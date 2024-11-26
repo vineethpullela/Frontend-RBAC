@@ -1,0 +1,60 @@
+.adduser-container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+
+
+
+
+.form-fields-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.label{
+    color: rgb(70, 67, 67);
+    font-size: 20px;
+
+}
+
+.input{
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(240, 245, 245);
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.submit{
+    padding: 10px 15px 10px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.back{
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(250, 36, 36);
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
